@@ -1,0 +1,883 @@
+@media(min-width:320px) and (max-width:375px){
+    h2 {
+        font-size: 32px;
+        font-weight: 600;
+    }
+    h4 {
+        font-size: 14px;
+    }
+    h3 {
+        font-size: 24px;
+        text-align: center;
+    }
+   h3::after {
+        width: 46% !important;
+        left: 27%;
+        bottom: -5px;
+        height: 2px;
+    }
+    h3::before {
+        display: none;
+    }
+    a {
+        display: block !important;
+        padding: 0px 30px 20px 30px;
+    }
+    i {
+        display: block !important;
+    }
+    /* =====hader_part responsive start===== */
+    #hader_part .hader_left {
+        padding: 0;
+    }
+    #hader_part::after {
+        display: none;
+    }
+    #contack_part .my_contack i {
+        left: 43%;
+        font-size: 14px;
+        top: -64px;
+    }
+    #hader_part .hader_right {
+        border-top: 0;
+        text-align: center;
+        padding: 0;
+    }
+    #hader_part .title h1{
+        font-size: 32px;
+    }
+    #contack_part .my_contack h5 {
+        padding-top: 70px;
+        padding-left: 0;
+    }
+    #hader_part .title p {
+        width: auto;
+        padding: 0 20px;
+        font-size: 14px;
+    }
+    #hader_part .hader_left .overlay{
+        display: none;
+    }
+    /* =====hader_part responsive end===== */
+
+    /* =====contack_part responsive end===== */
+    #contack_part .my_contack a {
+        font-size: 12px;
+        padding-left: 20px;
+    }
+    #contack_part .contack_left {
+        margin-top: 85%;
+        padding: 0 10px;
+        text-align: center;
+    }
+    #contack_part .contack_right {
+        padding: 0 20px;
+        text-align: center;
+    }
+    #contack_part .experince p {
+        font-size: 14px;
+        width: auto;
+    }
+    #contack_part .experince ul li{
+        list-style: none;
+
+    }
+        
+    
+    /* =====contack_part responsive end===== */
+
+    /* =====eaducation_part responsive start===== */
+    #eaducation_part .eaducation_left {
+        padding: 0 20px;
+        text-align: center;
+    }
+    #eaducation_part .eaducation_right {
+        padding: 0 10px;
+    }
+    #eaducation_part .spcial_qualification h3 {
+        font-size: 20px;
+    }
+    #eaducation_part .eaducation_right h6 {
+        padding: 20px 0;
+        text-align: center;
+    }
+    #eaducation_part .spcial_qualification h3::after {
+        width: 89% !important;
+        left: 17px;
+    }
+    #eaducation_part .topic_title .topic {
+        margin-left: 30px;
+    }
+    #eaducation_part .topic_title ul{
+        margin-left: 20px;
+    }
+    #eaducation_part .topic_title .topic ul{
+        margin-left: 20px;
+    }
+    #eaducation_part ul li{
+        font-size: 12px;
+        list-style: none;
+    }
+    #eaducation_part  .interest{
+        text-align: center;
+    }
+     #eaducation_part  .interest p{
+        padding: 20px;
+        font-size: 14px;
+         width: auto;
+    }
+    /* =====eaducation_part responsive end===== */
+
+    /* =====skill_part responsive start===== */
+    #skill_part .skill_name ul li {
+        font-size: 14px;
+    }
+    #skill_part .skill_left {
+        padding: 10px;
+        border-bottom: 0px solid #fff;
+    }
+    #skill_part .point {
+        width: 75%;
+        padding-top: 83px;
+    }
+    #skill_part .skill_name ul li::before {
+        top: 24px;
+        right: -127%;
+    }
+    #skill_part .skill_name ul li::after {
+        top: 24px;
+        right: -110%;
+    }
+    #skill_part .point .div1 div{
+        margin-right: 8px;
+        margin-bottom: 31px;
+    }
+    #skill_part .point .div2 div{
+        margin-right: 8px;
+        margin-bottom: 31px;
+    }
+    #skill_part .point .div3 div{
+        margin-right: 8px;
+        margin-bottom: 31px;
+    }
+    #skill_part .point .div4 div{
+        margin-right: 8px;
+        margin-bottom: 31px;
+    }
+    #skill_part .point .div5 div{
+        margin-right: 8px;
+        margin-bottom: 31px;
+    }
+    #skill_part .point .div6 div{
+        margin-right: 8px;
+        margin-bottom: 31px;
+    }
+    #skill_part .point .div7 div{
+        margin-right: 8px;
+        margin-bottom: 31px;
+    }
+    #skill_part .point .div8 div{
+        margin-right: 8px;
+        margin-bottom: 31px;
+    }
+    #skill_part .date {
+        padding-top: 0;
+    }
+    #skill_part .skill_right {
+        padding: 60px 20px;
+        border-bottom: 0px solid #fff;
+    }
+    
+    #skill_part .skill_right .follow {
+        display: block;
+        text-align: center;
+    }
+    #skill_part .skill_right .follow a {
+        padding: 0px 30px 0px 30px;
+    }
+    #skill_part .skill_right .follow i {
+        font-size: 14px;
+        margin-top: -60px;
+        margin-left: auto;
+        margin-right: auto;
+        position: revert;
+    }
+    #skill_part .skill_right .follow h5 {
+        padding: 70px 0 0px 0px;
+    }
+    #skill_part .skill_right .follow2 {
+        padding-left: 0;
+    }
+    #skill_part .refarence {
+        display: block;
+        text-align: center;
+    }
+    #skill_part .refarence .detals2 {
+        padding-top: 50px;
+        padding-left: 0px;
+    }
+
+    #skill_part .refarence a {
+        text-align: center;
+    }
+    #skill_part .refarence i {
+        margin: 10px auto;
+    }
+    #skill_part .date h4 {
+        font-size: 15px;
+    }
+    #skill_part .date h4::after {
+        width: 13%;
+    }
+    #skill_part .date p {
+        font-size: 13px;
+    }
+    #skill_part .signature h4 {
+        font-size: 13px;
+    }
+    #skill_part .signature p {
+        font-size: 10px;
+    }
+    #skill_part .signature h4::after {
+        height: 1px;
+        bottom: -4px;
+        left: 20px;
+    }
+    /* =====skill_part responsive end===== */
+
+}
+
+@media(min-width:576px) and (max-width:767px){
+    h2 {
+        font-size: 34px;
+    }
+    h4 {
+        font-size: 14px;
+    }
+    h3 {
+        font-size: 24px;
+        text-align: center;
+    }
+    h3::after {
+        width: 36% !important;
+        left: 32%;
+        bottom: -10px;
+        height: 3px;
+    }
+    h3::before {
+        display: none;
+    }
+    a {
+        display: block !important;
+        padding: 0px 30px 20px 30px;
+    }
+    i {
+        display: block !important;
+    }
+    ul li{
+        list-style: none;
+    }
+    /* =====hader_part responsive start===== */
+    #hader_part .hader_left {
+        padding: 0;
+    }
+    #hader_part::after {
+        display: none;
+    }
+    #contack_part .my_contack i {
+        left: 46%;
+        font-size: 14px;
+        top: -64px;
+    }
+    #hader_part .hader_right {
+        border-top: 0;
+        text-align: center;
+        padding: 0;
+    }
+    #hader_part .title h1{
+        font-size: 32px;
+    }
+    #contack_part .my_contack h5 {
+        padding-top: 70px;
+        padding-left: 0;
+    }
+    #hader_part .title p {
+        width: auto;
+        padding: 0 20px;
+        font-size: 14px;
+    }
+    #hader_part .hader_left .overlay{
+        display: none;
+    }
+    /* =====hader_part responsive end===== */
+
+    /* =====contack_part responsive end===== */
+    #contack_part .my_contack a {
+        font-size: 12px;
+        padding-left: 20px;
+    }
+    #contack_part .contack_left {
+        margin-top: 35%;
+        text-align: center;
+    }
+    #contack_part .contack_right {
+        padding: 0 20px;
+        text-align: center;
+    }
+    #contack_part .experince p {
+        font-size: 14px;
+        width: auto;
+    }
+    /* =====contack_part responsive end===== */
+
+    /* =====eaducation_part responsive start===== */
+    #eaducation_part .eaducation_left {
+        padding: 0 20px;
+        text-align: center;
+    }
+    #eaducation_part .eaducation_right {
+        padding: 0 10px;
+    }
+    #eaducation_part .spcial_qualification h3 {
+        font-size: 20px;
+    }
+    #eaducation_part .eaducation_right h6 {
+        padding: 20px 0;
+        text-align: center;
+    }
+    #eaducation_part .spcial_qualification h3::after {
+        width: 62% !important;
+        left: 100px;
+    }
+    #eaducation_part .topic_title .topic {
+        margin-left: 60px;
+    }
+    #eaducation_part .topic_title ul{
+        margin-left: 100px;
+    }
+    #eaducation_part .topic_title .topic ul{
+        margin-left: 20px;
+    }
+    #eaducation_part ul li{
+        font-size: 12px;
+    }
+    #eaducation_part  .interest{
+        text-align: center;
+    }
+     #eaducation_part  .interest p{
+        padding: 20px;
+        font-size: 14px;
+         width: auto;
+    }
+    /* =====eaducation_part responsive end===== */
+
+    /* =====skill_part responsive start===== */
+    #skill_part .skill_name ul li {
+        font-size: 14px;
+    }
+    #skill_part .skill_left {
+        padding: 20px 30px;
+        border-bottom: 0px solid #fff;
+    }
+    #skill_part .point {
+        width: 75%;
+        padding-top: 83px;
+    }
+    #skill_part .skill_name ul li::before {
+        top: 24px;
+        right: -148%;
+    }
+    #skill_part .skill_name ul li::after {
+        top: 24px;
+        right: -128%;
+    }
+    #skill_part .point .div1 div{
+        margin-right: 15px;
+        margin-bottom: 31px;
+    }
+    #skill_part .point .div2 div{
+        margin-right: 8px;
+        margin-bottom: 31px;
+    }
+    #skill_part .point .div3 div{
+        margin-right: 15px;
+        margin-bottom: 31px;
+    }
+    #skill_part .point .div4 div{
+        margin-right: 15px;
+        margin-bottom: 31px;
+    }
+    #skill_part .point .div5 div{
+        margin-right: 15px;
+        margin-bottom: 31px;
+    }
+    #skill_part .point .div6 div{
+        margin-right: 15px;
+        margin-bottom: 31px;
+    }
+    #skill_part .point .div7 div{
+        margin-right: 15px;
+        margin-bottom: 31px;
+    }
+    #skill_part .point .div8 div{
+        margin-right: 15px;
+        margin-bottom: 31px;
+    }
+    #skill_part .date {
+        padding-top: 0;
+        margin-left: -35%;
+    }
+    #skill_part .signature {
+        padding-left: 20%;
+    }
+    #skill_part .skill_right {
+        padding: 60px 20px;
+        border-bottom: 0px solid #fff;
+    }
+    
+    #skill_part .skill_right .follow {
+        display: block;
+        text-align: center;
+    }
+    #skill_part .skill_right .follow a {
+        padding: 0px 30px 0px 30px;
+    }
+    #skill_part .skill_right .follow i {
+        font-size: 14px;
+        margin-top: -60px;
+        margin-left: 37%;
+    }
+    #skill_part .skill_right .follow h5 {
+        padding: 70px 0 0px 0px;
+    }
+    #skill_part .skill_right .follow2 {
+        padding-left: 0;
+    }
+    #skill_part .refarence {
+        display: block;
+        text-align: center;
+    }
+    #skill_part .refarence .detals2 {
+        padding-top: 50px;
+        padding-left: 0px;
+    }
+    #skill_part .skill_name h3 {
+        margin-left: 150%;
+    }
+    #skill_part .refarence a {
+        text-align: center;
+    }
+    #skill_part .refarence i {
+        margin-left: 46%;
+        margin-bottom: 10px;
+    }
+    #skill_part .date h4 {
+        font-size: 15px;
+    }
+    #skill_part .date h4::after {
+        width: 13%;
+    }
+    #skill_part .date p {
+        font-size: 13px;
+    }
+    #skill_part .signature h4 {
+        font-size: 13px;
+    }
+    #skill_part .signature p {
+        font-size: 10px;
+    }
+    #skill_part .signature h4::after {
+        height: 2px;
+        bottom: -4px;
+        left: 85px;
+        width: 37%;
+    }
+    /* =====skill_part responsive end===== */
+
+}
+
+@media(min-width:768px) and (max-width:991px){
+
+    h2 {
+        font-size: 32px;
+        font-weight: 600;
+    }
+    h4 {
+        font-size: 16px;
+    }
+    h3 {
+        font-size: 28px;
+    }
+    h3::before {
+        display: none;
+    }
+    h3::after {
+        width: 26%;
+        height: 3px;
+    }
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        border-left: 3px solid #000000;
+        border-right: 3px solid #000000;
+    }
+    #hader_part .hader_left .overlay{
+        display: none;
+    }
+    #hader_part .hader_left {
+        border-top: 2px solid #000000;
+        padding-right: 0;
+    }
+    #hader_part .hader_right {
+        border-top: 0px solid #000000;
+    }
+    #hader_part .title h1 {
+        font-size: 48px;
+    }
+    #hader_part::after{
+        display: none;
+    }
+    #contack_part .contack_left {
+        margin-top: 30%;
+        padding: 20px 60px;
+    }
+    #eaducation_part .eaducation h3::after {
+        width: 23%;
+    }
+    #eaducation_part .eaducation_left {
+        padding: 0px 60px;
+    }
+    #skill_part .skill_left {
+        padding: 20px 60px;
+        border-bottom: 0px solid #fff;
+    }
+    #skill_part .skill_right {
+        border-bottom: 2px solid #000;
+        padding: 70px 20px 60px 60px;
+    }
+    #skill_part .date {
+        margin-left: -44%;
+        padding-top: 10px;
+    }
+    #skill_part .signature {
+        padding-left: 27%;
+    }
+    #skill_part .signature h4::after {
+        width: 50%;
+        left: 76px;
+    }
+    #skill_part .refarence a {
+        width: 110%;
+        font-size: 14px;
+    }
+}
+
+@media(min-width:992px) and (max-width:1199px){
+    h2 {
+        font-size: 32px;
+    }
+    h3 {
+        font-size: 25px;
+    }
+
+    h3::after {
+        width: 46%;
+        height: 3px;
+    }
+    h4 {
+        font-size: 16px;
+    }
+    h5 {
+        font-size: 16px;
+    }
+    h6 {
+        font-size: 14px;
+    }
+    p {
+        font-size: 14px;
+    }
+    #hader_part::after {
+	    height: 1646px;
+    }
+    #hader_part .hader_left {
+        padding-right: 0;
+    }
+    #hader_part .title p {
+        width: auto;
+    }
+    #hader_part .title h1 {
+        font-size: 52px;
+    }
+    #hader_part .hader_left .overlay{
+        display: none;
+    }
+    #contack_part .experince h3::before {
+        left: -12.5%;
+    }
+    #contack_part .experince h3::after {
+        width: 26%;
+    }
+    #eaducation_part .eaducation h3::after {
+        width: 40%;
+    }
+    #eaducation_part .spcial_qualification h3::before {
+        left: -12.5%;
+    }
+    #eaducation_part .spcial_qualification h3::after {
+        width: 61%;
+    }
+    #eaducation_part .interest h3::before {
+        left: -12.4%; 
+    }
+    #eaducation_part .interest h3::after {
+        width: 20%;
+    }
+    #skill_part .skill_right h3::before {
+        left: -12.5%;
+    }
+    #skill_part .skill_right h3::after {
+        width: 26%;
+    }
+    #skill_part .skill_left {
+        padding: 20px 10px;
+    }
+    #skill_part .skill_name ul li {
+        font-size: 14px;
+    }
+    #skill_part .date {
+        margin-left: -50%;
+    }
+    #skill_part .date h4 {
+        font-size: 15px;
+    }
+    #skill_part .date p {
+        font-size: 13px;
+    }
+    #skill_part .signature h4::after {
+        width: 96%;
+        left: 0px;
+    }
+    #skill_part .skill_right .follow2 {
+        padding-left: 0;
+    }
+    #skill_part .skill_right .refarence h3::before {
+        left: -28%;
+    }
+    #skill_part .refarence .detals2 {
+        padding-left: 50px;
+    }
+    #skill_part .refarence p{
+        font-size: 11px;
+    }
+    #skill_part .skill_name ul li::before {
+        height: 8px;
+        width: 8px;
+        top: 28px;
+        right: -153%;
+    }
+    #skill_part .skill_name ul li::after {
+        height: 8px;
+        width: 8px;
+        top: 29px;
+        right: -139%;
+
+    }
+    #skill_part .point .div1 div {
+        height: 8px;
+        width: 8px;
+        margin-bottom: 32px;
+    }
+    #skill_part .point .div2 div {
+        height: 8px;
+        width: 8px;
+        margin-bottom: 32px;
+    }
+    #skill_part .point .div3 div {
+        height: 8px;
+        width: 8px;
+        margin-bottom: 32px;
+    }
+    #skill_part .point .div4 div {
+        height: 8px;
+        width: 8px;
+        margin-bottom: 32px;
+    }
+    #skill_part .point .div5 div {
+        height: 8px;
+        width: 8px;
+        margin-bottom: 32px;
+    }
+    #skill_part .point .div6 div {
+        height: 8px;
+        width: 8px;
+        margin-bottom: 32px;
+    }
+    #skill_part .point .div7 div {
+        height: 8px;
+        width: 8px;
+        margin-bottom: 32px;
+    }
+    #skill_part .point .div8 div {
+        height: 8px;
+        width: 8px;
+        margin-bottom: 32px;
+    }
+}
+
+@media(min-width:1200px) and (max-width:1400px){
+    h2 {
+        font-size: 32px;
+    }
+    h3 {
+        font-size: 25px;
+    }
+
+    h3::after {
+        width: 46%;
+        height: 3px;
+    }
+    h4 {
+        font-size: 16px;
+    }
+    h5 {
+        font-size: 16px;
+    }
+    h6 {
+        font-size: 14px;
+    }
+    p {
+        font-size: 14px;
+    }
+/*  ===========hader_part responsive start==========*/
+   
+    #hader_part .hader_left {
+        padding-right: 0;
+    }
+    #hader_part .title p {
+        width: auto;
+    }
+    #hader_part .title h1 {
+        font-size: 52px;
+    }
+
+/*  ===========hader_part responsive end==========*/
+    #eaducation_part .eaducation h3::after {
+        width: 40%;
+    }
+    #eaducation_part .spcial_qualification h3::after {
+        width: 61%;
+    }
+    #eaducation_part .interest h3::after {
+        width: 20%;
+    }
+/*  ===========skill_part responsive start==========*/
+    #skill_part .skill_right h3::after {
+        width: 26%;
+    }
+    #skill_part .skill_left {
+        padding: 20px 10px;
+    }
+    #skill_part .skill_name ul li {
+        font-size: 16px;
+        padding-top: 16px;
+    }
+    #skill_part .date {
+        margin-left: -50%;
+    }
+    #skill_part .date h4 {
+        font-size: 15px;
+    }
+    #skill_part .date p {
+        font-size: 13px;
+    }
+    #skill_part .signature h4::after {
+        width: 96%;
+        left: 0px;
+    }
+    #skill_part .skill_right .follow2 {
+        padding-left: 0;
+    }
+    #skill_part .skill_right .refarence h3::before {
+        left: -23%;
+    }
+    #skill_part .refarence .detals2 {
+        padding-left: 50px;
+    }
+    #skill_part .refarence p{
+        font-size: 13px;
+    }
+    #skill_part .skill_name ul li::before {
+        height: 8px;
+        width: 8px;
+        top: 28px;
+        right: -146%;
+    }
+    #skill_part .skill_name ul li::after {
+        height: 8px;
+        width: 8px;
+        top: 29px;
+        right: -126%;
+    }
+    #skill_part .point .div1 div {
+        height: 8px;
+        width: 8px;
+        margin-bottom: 32px;
+    }
+    #skill_part .point .div2 div {
+        height: 8px;
+        width: 8px;
+        margin-bottom: 32px;
+    }
+    #skill_part .point .div3 div {
+        height: 8px;
+        width: 8px;
+        margin-bottom: 32px;
+    }
+    #skill_part .point .div4 div {
+        height: 8px;
+        width: 8px;
+        margin-bottom: 32px;
+    }
+    #skill_part .point .div5 div {
+        height: 8px;
+        width: 8px;
+        margin-bottom: 32px;
+    }
+    #skill_part .point .div6 div {
+        height: 8px;
+        width: 8px;
+        margin-bottom: 32px;
+    }
+    #skill_part .point .div7 div {
+        height: 8px;
+        width: 8px;
+        margin-bottom: 32px;
+    }
+    #skill_part .point .div8 div {
+        height: 8px;
+        width: 8px;
+        margin-bottom: 32px;
+    }
+    #eaducation_part .spcial_qualification h3::before {
+        bottom: -20px;
+        left: -10.3%;
+    }
+      #eaducation_part .interest h3::before {
+        bottom: -15px;
+        left: -10.3%;
+    }  
+    #skill_part .skill_right h3::before {
+	    bottom: -20px;
+        left: -10.3%;
+    }
+/*  ===========skill_part responsive end==========*/
+
+/*  ===========cotnack_part responsive start==========*/
+    #contack_part .experince h3::before {
+        bottom: -20px;
+        left: -10.3%;
+    }
+    #contack_part .experince h3::after {
+        width: 26%;
+    }
+/*   ===========cotnack_part responsive end==========*/
+  
+}

@@ -1,0 +1,589 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+	padding-left: 15px;
+}
+ul li{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 14px;
+	text-transform: capitalize;
+}
+ul li::marker{
+    color: #ed5034;
+}
+a{
+    display: inline-block !important;
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+}
+html, body{
+    overflow-x: hidden;
+}
+.container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+	border-left: 4px solid #000000;
+	border-right: 4px solid #000000;
+}
+h2{
+    font-size: 48px;
+	font-weight: bold;
+	text-transform: capitalize;
+	font-family: 'Kufam', cursive;
+}
+h3{
+    font-size: 28px;
+    color: #ed5034;
+    font-family: 'Kufam', cursive;
+	font-weight: 500;
+	text-transform: capitalize;
+	position: relative;
+	padding-top: 20px;
+}
+h3::after {
+	width: 34%;
+	height: 4px;
+	background: #000;
+	position: absolute;
+	bottom: -5px;
+	left: 0%;
+	content: " ";
+}
+h4{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 23px;
+    color: rgba(0, 0, 0, 0.774);
+	padding-top: 20px;
+	text-transform: capitalize;
+}
+h5 {
+	font-family: 'Montserrat Alternates', sans-serif;
+	font-size: 18px;
+	color: #000;
+	text-transform: capitalize;
+	padding: 5px 0;
+}
+h6 {
+	font-family: 'Montserrat Alternates', sans-serif;
+	font-size: 16px;
+	color: #ed5034;
+	text-transform: capitalize;
+	padding-bottom: 20px;
+}
+p{
+	font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 14px;
+	text-transform: capitalize;
+}
+.row{
+	position: relative;
+}
+i{
+	width: 35px;
+	background: #ed5034;
+	color: #ffffff;
+	text-align: center;
+	height: 35px;
+	border-radius: 50%;
+	transition: .4s;
+}
+/* =============hader part css start============== */
+#hader_part{
+    width: 100%;
+    height: 300px;
+}
+#hader_part::after {
+	width: 5px;
+	height: 1595px !important;
+	background: rgba(19, 20, 18, 0.26);
+	position: absolute;
+	top: 0%;
+	content: " ";
+	margin-left: 42.2% !important;
+}
+#hader_part .hader_left {
+	border-top: 4px solid #000000;
+	padding-left: 0;
+}
+#hader_part .hader_left .overlay{
+	width: 200px;
+	height: 200px;
+	background: rgba(19, 20, 19, 0.144);
+	position: absolute;
+	top: 52%;
+	left: 36px;
+	transform: translate(50% ,-50%);
+	border-radius: 50%;
+	transition: .4s;
+}
+#hader_part .hader_left .image:hover .overlay{
+	opacity: 0;
+}
+#hader_part .image {
+	position: relative;
+	width: 100%;
+	height: 300px;
+	z-index: 11;
+}
+#hader_part .image .shape {
+	height: 100%;
+	width: 100%;
+	background: #ed5034;
+	position: absolute;
+	top: 0;
+	left: 0;
+	clip-path: polygon(0 0, 100% 0, 100% 53%, 0% 100%);
+}
+#hader_part .image .round {
+	width: 240px;
+	height: 240px;
+	background: #fff;
+	position: absolute;
+	top: 12%;
+	left: 50%;
+	transform: translateX(-50%);
+	border-radius: 50%;
+}
+#hader_part .image .round .img_round {
+	width: 200px;
+	height: 200px;
+	background: rgba(217, 216, 208, 0.96);
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	border-radius: 50%;
+}
+#hader_part .image .round .img_round img {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	border-radius: 50%;
+}
+#hader_part .hader_right {
+	padding: 10px 20px 10px 60px;
+	border-top: 4px solid #000000;
+}
+#hader_part .title p {
+	width: 530px;
+}
+#hader_part .title h1{
+    font-family: 'Cinzel', serif;
+	font-size: 72px;
+	font-weight: 400;
+}
+#hader_part .title h4 {
+	color: #ed5034;
+	font-weight: 500;
+	padding-bottom: 20px;
+	padding-top: 0;
+}
+/* =============hader part css end============== */
+
+/* =============contack part banner css start============== */
+#contack_part .contack_left{
+	padding: 20px 40px;
+}
+#contack_part .my_contack h5 {
+	padding-left: 50px;
+	font-weight: 600;
+	padding-top: 25px;
+}
+#contack_part .my_contack a {
+	position: relative;
+	padding-left: 50px;
+}
+#contack_part .my_contack i {
+	font-weight: bold;
+	position: absolute;
+	top: -15px;
+	left: 0;
+	font-size: 16px;
+	line-height: 35px;
+	transition: .4s;
+}
+#contack_part .my_contack i:hover{
+	color: #ed5034;
+	background: #000;
+}
+#contack_part .contack_right{
+	padding: 20px 20px 10px 60px;
+}
+#contack_part .experince h4{
+	font-size: 20px;
+}
+#contack_part .experince h6{
+	padding-bottom: 10px;
+}
+
+#contack_part .experince h3::after {
+	width: 20%;
+}
+#contack_part .experince h3::before {
+	width: 4%;
+	height: 40px;
+	background: #ed5034;
+	position: absolute;
+	bottom: -5px;
+	left: -10.5%;
+	content: " ";
+	clip-path: polygon(0 6%, 100% 50%, 0 91%, 0% 50%);
+}
+#contack_part .experince p {
+    padding: 10px 0;
+    width: 466px;
+}
+
+/* =============contack part banner css end============== */
+
+/* =============education part css start============== */
+#eaducation_part .eaducation_left {
+	padding: 0px 40px;
+	padding-right: 0;
+}
+#eaducation_part .eaducation{
+	padding-bottom: 20px;
+}
+#eaducation_part .eaducation .year {
+	padding-top: 10px;
+}
+#eaducation_part .eaducation h4 {
+	padding-top: 0px;
+	font-weight: 600;
+}
+#eaducation_part .eaducation h5 {
+	font-size: 18px;
+	font-weight: 500;
+	padding: 5px 0;
+}
+#eaducation_part .eaducation h6 {
+	padding-top: 20px;
+	padding-bottom: 0;
+}
+#eaducation_part .eaducation h3::after{
+	width: 30%;
+}
+#eaducation_part .spcial_qualification h3{
+    padding-top: 0;
+}
+#eaducation_part .spcial_qualification h3::before {
+	width: 4%;
+	height: 40px;
+	background: #ed5034;
+	position: absolute;
+	bottom: -5px;
+	left: -10.5%;
+	content: " ";
+	clip-path: polygon(0 6%, 100% 50%, 0 91%, 0% 50%);
+}
+#eaducation_part .spcial_qualification h3::after{
+	width: 47%;
+}
+#eaducation_part .eaducation_right{
+	padding: 20px 20px 10px 60px;
+}
+#eaducation_part .eaducation_right h6{
+	padding: 10px 0;
+}
+#eaducation_part .spcial_qualification .topic_title {
+	display: flex;
+	padding: 10px 0;
+}
+#eaducation_part .topic_title .topic{
+    margin-left: 40px;
+}
+#eaducation_part .interest h3::before {
+	width: 3%;
+	height: 30px;
+	background: #ed5034;
+	position: absolute;
+	bottom: -5px;
+	left: -10.6%;
+	content: " ";
+	clip-path: polygon(0 6%, 100% 50%, 0 91%, 0% 50%);
+}
+#eaducation_part .interest h3::after {
+	width: 16%;
+}
+#eaducation_part .interest p {
+    padding: 20px 0;
+    width: 400px;
+}
+/* =============education part css end============== */
+
+/* =============skill_part story css start============== */
+
+#skill_part .skill_left {
+	padding: 20px 40px;
+	display: flex;
+	border-bottom: 4px solid #000;
+}
+#skill_part .skill_name h3{
+	padding-bottom: 10px;
+}
+#skill_part ul {
+	padding-left: 0;
+}
+#skill_part ul li{
+	padding-top: 20px;
+	display: block;
+	font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 18px;
+    color: #000;
+	text-transform: capitalize;
+	font-weight: 500;
+}
+#skill_part .skill_name h3::after {
+	width: 38%;
+	bottom: 5px;
+}
+#skill_part .point {
+	width: 70%;
+	height: 320px;
+	padding-top: 90px;
+	position: relative;
+	margin-left: -20px;
+}
+#skill_part .skills_dots{
+	display: flex;
+}
+#skill_part .point .div1 div {
+	height: 10px;
+	width: 10px;
+	border-radius: 50%;
+	background: #ed5034;
+	margin-bottom: 37px;
+	margin-right: 20px;
+}
+#skill_part .point .div2 div{
+	height: 10px;
+	width: 10px;
+	border-radius: 50%;
+	background: #ed5034;
+	margin-bottom: 37px;
+	margin-right: 20px;
+}
+#skill_part .point .div3 div{
+	height: 10px;
+	width: 10px;
+	border-radius: 50%;
+	background: #ed5034;
+	margin-bottom: 37px;
+	margin-right: 20px;
+}
+#skill_part .point .div4 div{
+	height: 10px;
+	width: 10px;
+	border-radius: 50%;
+	background: #ed5034;
+	margin-bottom: 37px;
+	margin-right: 20px;
+}
+#skill_part .point .div5 div{
+	height: 10px;
+	width: 10px;
+	border-radius: 50%;
+	background: #ed5034;
+	margin-bottom: 37px;
+	margin-right: 20px;
+}
+#skill_part .point .div6 div{
+	height: 10px;
+	width: 10px;
+	border-radius: 50%;
+	background: #ed5034;
+	margin-bottom: 37px;
+	margin-right: 20px;
+}
+
+#skill_part .point .div6 .six_4{
+	background: rgba(0, 0, 0, 0.6);
+}
+#skill_part .point .div6 .six_5{
+	background: rgba(0, 0, 0, 0.6);
+}
+#skill_part .point .div7 div{
+	height: 10px;
+	width: 10px;
+	border-radius: 50%;
+	background: rgba(0, 0, 0, 0.6);
+	margin-bottom: 37px;
+	margin-right: 20px;
+}
+#skill_part .point .div8 div{
+	height: 10px;
+	width: 10px;
+	border-radius: 50%;
+	background: rgba(0, 0, 0, 0.6);
+	margin-bottom: 37px;
+	margin-right: 20px;
+}
+#skill_part .point .div7 .seven_1{
+	background: #ed5034;
+}
+#skill_part .skill_name ul li{
+	position: relative;
+}
+#skill_part .skill_name ul li::after {
+	height: 10px;
+	width: 10px;
+	border-radius: 50%;
+	position: absolute;
+	top: 26px;
+	right: -125%;
+	content: " ";
+	background: rgba(0, 0, 0, 0.6);
+}
+#skill_part .skill_name ul li::before {
+	height: 10px;
+	width: 10px;
+	border-radius: 50%;
+	position: absolute;
+	top: 26px;
+	right: -141%;
+	content: " ";
+	background: rgba(0, 0, 0, 0.6);
+}
+
+#skill_part .refarence {
+	display: flex;
+}
+#skill_part .refarence h3::after {
+	width: 50%;
+}
+#skill_part .refarence .detals h3 {
+	padding-top: 20px;
+}
+#skill_part .refarence h5{
+	color: #ed5034;
+}
+#skill_part .refarence h6{
+	color: #000;
+}
+#skill_part .skill_right {
+	padding: 20px 20px 60px 60px;
+	border-bottom: 4px solid #000;
+}
+#skill_part .skill_right .follow{
+	display: flex;
+}
+#skill_part .skill_right h3{
+	padding-top: 0px;
+}
+
+#skill_part .skill_right h3::after {
+	width: 20%;
+}
+#skill_part .skill_right h3::before {
+	width: 4%;
+	height: 40px;
+	background: #ed5034;
+	position: absolute;
+	bottom: -5px;
+	left: -10.5%;
+	content: " ";
+	clip-path: polygon(0 6%, 100% 50%, 0 91%, 0% 50%);
+}
+#skill_part .skill_right .follow h5{
+	padding: 20px 0 0 50px;
+}
+#skill_part .skill_right .follow a {
+	padding: 0px 30px 20px 50px;
+	font-size: 14px;
+}
+#skill_part .skill_right .follow i {
+	font-size: 16px;
+	background: #ed5034;
+	color: #ffffff;
+	margin-top: -15px;
+	position: absolute;
+	margin-left: -50px;
+	line-height: 35px;
+	font-weight: bold;
+}
+#skill_part .skill_right i:hover{
+	background: #000;
+	color: #ed5034;
+}
+#skill_part .skill_right .follow2 {
+	padding-left: 35px;
+}
+#skill_part .skill_right .follow2 i {
+	margin-top: -15px;
+	margin-left: -50px;
+}
+#skill_part .skill_right .refarence h3::before {
+	width: 7%;
+	height: 30px;
+	background: #ed5034;
+	position: absolute;
+	bottom: -5px;
+	left: -23 !important%;
+	content: " ";
+	clip-path: polygon(0 6%, 100% 50%, 0 91%, 0% 50%);
+}
+#skill_part .skill_right .refarence h3::after {
+	width: 50%;
+}
+#skill_part .refarence a{
+	padding: 5px 0;
+}
+#skill_part .refarence i {
+	margin-right: 20px;
+	line-height: 35px;
+}
+#skill_part .refarence .detals2{
+	padding-top: 50px;
+	padding-left: 120px;
+}
+#skill_part .date{
+	margin-left: -55%;
+	padding-top: 54px;
+}
+#skill_part .date h4{
+	font-size: 18px;
+	font-weight: 700;
+	position: relative;
+}
+#skill_part .date h4::after {
+	width: 15%;
+	height: 1.5px;
+	background: #000;
+	bottom: -2px;
+	content: " ";
+	position: absolute;
+	left: -1px;
+}
+#skill_part .date p{
+	font-size: 16px;
+	margin-top: 5px;
+}
+#skill_part .signature {
+	margin-top: -70px;
+	padding-left: 50%;
+	text-align: center;
+}
+#skill_part .signature h4{
+	position: relative;
+	font-size: 18px;
+	font-weight: 700;
+}
+#skill_part .signature h4::after {
+	width: 95%;
+	height: 2px;
+	background: #000;
+	bottom: -5px;
+	content: " ";
+	position: absolute;
+	left: 0px;
+}
+#skill_part .signature p {
+	font-family: 'Ballet', cursive;
+	margin-top: 10px;
+	font-weight: bold;
+	font-size: 16px;
+}
+/* =============skill_part story css end============== */

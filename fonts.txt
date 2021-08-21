@@ -1,0 +1,6 @@
+    font-family: 'Ballet', cursive;
+    font-family: 'Cinzel', serif;
+    font-family: 'Kufam', cursive;  
+    font-family: 'Montserrat Alternates', sans-serif;
+
+    
