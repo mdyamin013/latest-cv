@@ -97,12 +97,12 @@ i{
 }
 #hader_part::after {
 	width: 5px;
-	height: 1595px !important;
+	height: 1655px !important;
 	background: rgba(19, 20, 18, 0.26);
 	position: absolute;
 	top: 0%;
 	content: " ";
-	margin-left: 42.2% !important;
+	margin-left: 41.7% !important;
 }
 #hader_part .hader_left {
 	border-top: 4px solid #000000;
@@ -114,7 +114,7 @@ i{
 	background: rgba(19, 20, 19, 0.144);
 	position: absolute;
 	top: 52%;
-	left: 36px;
+	left: 68px;
 	transform: translate(50% ,-50%);
 	border-radius: 50%;
 	transition: .4s;
@@ -399,17 +399,12 @@ i{
 	margin-right: 20px;
 }
 
-#skill_part .point .div6 .six_4{
-	background: rgba(0, 0, 0, 0.6);
-}
-#skill_part .point .div6 .six_5{
-	background: rgba(0, 0, 0, 0.6);
-}
+
 #skill_part .point .div7 div{
 	height: 10px;
 	width: 10px;
 	border-radius: 50%;
-	background: rgba(0, 0, 0, 0.6);
+	background: #ed5034;
 	margin-bottom: 37px;
 	margin-right: 20px;
 }
@@ -417,7 +412,7 @@ i{
 	height: 10px;
 	width: 10px;
 	border-radius: 50%;
-	background: rgba(0, 0, 0, 0.6);
+	background: #ed5034;
 	margin-bottom: 37px;
 	margin-right: 20px;
 }
@@ -435,7 +430,10 @@ i{
 	top: 26px;
 	right: -125%;
 	content: " ";
-	background: rgba(0, 0, 0, 0.6);
+	background: #ed5034;
+}
+#skill_part .skill_name ul li:last-child::after{
+    background: rgba(0, 0, 0, 0.6);
 }
 #skill_part .skill_name ul li::before {
 	height: 10px;
@@ -447,7 +445,15 @@ i{
 	content: " ";
 	background: rgba(0, 0, 0, 0.6);
 }
-
+#skill_part .skill_name ul li:nth-child(4)::after{
+    background: rgba(0, 0, 0, 0.6);
+}
+#skill_part .skill_name ul li:fast-child::before{
+    background: #ed5034;
+}
+#skill_part .skill_name ul li:last-child::before{
+    background: rgba(0, 0, 0, 0.6);
+}
 #skill_part .refarence {
 	display: flex;
 }
@@ -521,7 +527,7 @@ i{
 	background: #ed5034;
 	position: absolute;
 	bottom: -5px;
-	left: -23 !important%;
+	margin-left: -45px;
 	content: " ";
 	clip-path: polygon(0 6%, 100% 50%, 0 91%, 0% 50%);
 }
